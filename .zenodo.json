@@ -1,0 +1,42 @@
+{
+  "language": "eng",
+  "license": "CC0-1.0",
+  "title": "GLAM-Workbench/trove-newspaper-titles-web-archives",
+  "related_identifiers": [
+    {
+      "scheme": "url",
+      "identifier": "https://github.com/GLAM-Workbench/trove-newspaper-titles-web-archives/tree/v1.0",
+      "relation": "isDerivedFrom",
+      "resource_type": "software"
+    },
+    {
+      "scheme": "url",
+      "identifier": "https://glam-workbench.net/trove-newspapers/",
+      "relation": "isDocumentedBy",
+      "resource_type": "publication-softwaredocumentation"
+    },
+    {
+      "scheme": "url",
+      "identifier": "https://glam-workbench.net/",
+      "relation": "isPartOf",
+      "resource_type": "other"
+    }
+  ],
+  "version": "v1.0",
+  "upload_type": "dataset",
+  "keywords": [
+    "digital humanities",
+    "Trove",
+    "newspapers",
+    "GLAM Workbench"
+  ],
+  "publication_date": "2021-05-07",
+  "creators": [
+    {
+      "orcid": "0000-0001-7956-4498",
+      "name": "Sherratt, Tim"
+    }
+  ],
+  "access_right": "open",
+  "description": "<p>Current version: <a href=\"https://github.com/GLAM-Workbench/trove-newspaper-titles-web-archives/releases/tag/v1.0\">v1.0</a></p> <p>The number of digitised newspapers available through Trove has increased dramatically since 2009. Understanding when newspapers were added is important for historiographical purposes, but there’s no data about this available directly from Trove. These datasets were created by harvesting information about newspaper titles in Trove from web archives. The harvesting method is documented by <a href=\"https://glam-workbench.net/trove-newspapers/historical-data-newspaper-titles/\">Gathering historical data about the addition of newspaper titles to Trove</a> in the GLAM Workbench.</p> <p>This dataset contains two files:</p> <ul> <li><code>trove_newspaper_titles_2009_2021.csv</code></li> <li><code>trove_newspaper_titles_first_appearance_2009_2021.csv</code></li> </ul> <h2 id=\"trove_newspaper_titles_2009_2021.csv\"><code>trove_newspaper_titles_2009_2021.csv</code></h2> <p>CSV formatted data file containing details of newspaper titles extracted from web archive captures.</p> <p>This file contains the following columns:</p> <table> <thead> <tr class=\"header\"> <th>Column</th> <th>Contents</th> </tr> </thead> <tbody> <tr class=\"odd\"> <td><code>title_id</code></td> <td>title identifier</td> </tr> <tr class=\"even\"> <td><code>full_title</code></td> <td>full title (including location and dates)</td> </tr> <tr class=\"odd\"> <td><code>title</code></td> <td>newspaper title</td> </tr> <tr class=\"even\"> <td><code>place</code></td> <td>place of publication</td> </tr> <tr class=\"odd\"> <td><code>dates</code></td> <td>date range in Trove</td> </tr> <tr class=\"even\"> <td><code>capture_date</code></td> <td>date of web archive capture</td> </tr> <tr class=\"odd\"> <td><code>capture_timestamp</code></td> <td>timestamp of web archive capture</td> </tr> </tbody> </table> <h2 id=\"trove_newspaper_titles_first_appearance_2009_2021.csv\"><code>trove_newspaper_titles_first_appearance_2009_2021.csv</code></h2> <p>CSV formatted data file containing details of the first appearance of newspaper titles in web archive captures, indicating when the titles were (approximately) added to Trove. The complete list of captures has been filtered to include only the first appearance of each title / place / date range combination.</p> <p>The file contains the following columns:</p> <table> <thead> <tr class=\"header\"> <th>Column</th> <th>Contents</th> </tr> </thead> <tbody> <tr class=\"odd\"> <td><code>title_id</code></td> <td>title identifier</td> </tr> <tr class=\"even\"> <td><code>full_title</code></td> <td>full title (including location and dates)</td> </tr> <tr class=\"odd\"> <td><code>title</code></td> <td>newspaper title</td> </tr> <tr class=\"even\"> <td><code>place</code></td> <td>place of publication</td> </tr> <tr class=\"odd\"> <td><code>dates</code></td> <td>date range in Trove</td> </tr> <tr class=\"even\"> <td><code>capture_date</code></td> <td>date of web archive capture</td> </tr> <tr class=\"odd\"> <td><code>capture_timestamp</code></td> <td>timestamp of web archive capture</td> </tr> </tbody> </table>"
+}
