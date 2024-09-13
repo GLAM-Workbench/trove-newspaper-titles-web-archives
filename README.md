@@ -1,6 +1,6 @@
 # Historical data about Trove newspaper titles harvested from web archives
 
-Current version: [v1.0](https://github.com/GLAM-Workbench/trove-newspaper-titles-web-archives/releases/tag/v1.0)
+Current version: [v1.1](https://github.com/GLAM-Workbench/trove-newspaper-titles-web-archives/releases/tag/v1.1)
 
 The number of digitised newspapers available through Trove has increased dramatically since 2009. Understanding when newspapers were added is important for historiographical purposes, but there's no data about this available directly from Trove. These datasets were created by harvesting information about newspaper titles in Trove from web archives. The harvesting method is documented by [Gathering historical data about the addition of newspaper titles to Trove](https://glam-workbench.net/trove-newspapers/historical-data-newspaper-titles/) in the GLAM Workbench.
 
